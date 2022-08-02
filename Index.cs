@@ -230,12 +230,6 @@ namespace cmrds_manager
 
             int currentLine = 1;
 
-            /*
-             * Excel.Range seniorityRange = excelWs.Cells[excelRowNumber, 4];
-             * 
-                int seniority = (int)seniorityRange.Value;
-            */
-
             foreach (Group group in _groups)
             {
                 exportWs.Cells[currentLine, 1] = "Nom de groupe : ";
